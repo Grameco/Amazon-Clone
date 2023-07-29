@@ -193,6 +193,7 @@ span {
 /*Panel*/
 
 .panel {
+  
   height: 39px;
   display: flex;
   background-color: #222f3d;
@@ -204,14 +205,13 @@ span {
 }
 
 .panel-all {
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding:0px;
   font-size: large;
-  width: 80vw;
-  margin-left: -30vw;
+  width: 50vw;
+  margin-left: -50.7vw;
 }
 
 .panel-all > p {
@@ -230,6 +230,7 @@ span {
 }
 
 .main-message {
+  width: 99vw;
   background-color: #f5f6f6;
   color: black;
   height: 40px;
@@ -237,7 +238,7 @@ span {
   justify-content: center;
   align-items: center;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-bottom: 25px;
 }
 
@@ -266,7 +267,8 @@ span {
   height: 400px;
   width:340px;
   margin-bottom: 20px;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: flex;
 }
 
 .box h2 {
@@ -462,8 +464,7 @@ ul p {
     width: 150px;
     color: #cccccc;
     /*in terms of rem to make it responsive*/
-    font-size: 2rem;
-    
+    font-size: 2rem; 
     margin-left: 5px;
     padding-top: 3px;
   }
@@ -510,6 +511,7 @@ ul p {
   }
 
   .nav-sign-in {
+    overflow-y:hidden ;
     width: 180px;
     padding: 2px;
     height: 150px;
@@ -549,6 +551,7 @@ ul p {
     margin-left: 5px;
   }
   .panel {
+    
     width: 100vw;
     height: 70px;
     display: flex;
@@ -561,6 +564,7 @@ ul p {
   }
   
   .panel-all {
+
     margin-left: -27vw;
     display: flex;
     justify-content: space-between;
