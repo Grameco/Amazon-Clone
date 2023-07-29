@@ -408,7 +408,7 @@ ul p {
 }
 
 /*Media Queries*/
-@media screen and (min-width:1281px) {
+@media screen and (min-width:1500px) {
 
   .main-section{
     height: 30vh;
