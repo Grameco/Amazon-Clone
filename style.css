@@ -256,7 +256,7 @@ span {
   padding:10px 80px;
   align-items: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(340px , 1fr));
   background-color: rgb(246, 242, 243);
 }
 
@@ -264,7 +264,7 @@ span {
   background-color: #ffffff;
   text-align: left;
   height: 400px;
-  width:300px;
+  width:340px;
   margin-bottom: 20px;
   align-items: flex-end;
 }
